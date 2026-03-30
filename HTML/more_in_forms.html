@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>College Form</h1>
+    <form action="/manage.py">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Full Name..."><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" placeholder="Your E-mail..."><br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" id="pass" placeholder="Enter Password..."><br><br>
+
+        <label for="cpass">Confirm Password:</label>
+        <input type="password" id="cpass" placeholder="Enter Confirm Password..."><br><br>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="Your Mobile Number..."><br><br>
+
+
+        <!-- More in Forms -->
+
+
+        <p>Choose Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="gender">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="gender">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="gender">Other</label> <br><br>
+
+        <p>Select your hobby:</p>
+
+        <label for="outdoor">Outdoor Games</label>
+        <input type="checkbox" id="outdoor" value="outdoor" name="outdoor"> <br>
+
+        <label for="indoor">Indoor Games</label>
+        <input type="checkbox" id="indoor" value="indoor" name="indoor"> <br>
+
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="gaming" value="gaming" name="gaming"> <br>
+
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="coding" value="coding" name="coding"> <br>
+
+        <label for="city">Choose Your City:</label>
+        <select name="city" id="city">
+            <option value="delhi">Delhi</option>
+            <option value="uttar pradesh">UP</option>
+            <option value="haryana">Haryana</option>
+            <option value="Kolkata">Kolkata</option>
+        </select> <br><br>
+
+        <label for="description">What's your hope from our college, Give a short Description:</label> <br>
+        <textarea rows="7" cols="50" name="description" id="description"></textarea> <br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
